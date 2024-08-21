@@ -1,0 +1,49 @@
+.detailed-modal {
+    z-index: 9000;
+
+    .modal-stories-content {
+        justify-content: initial !important;
+
+        .detailed-modal-story {
+            flex-direction: row !important;
+            align-items: center;
+            max-height: 80vh;
+
+            .icon-before {
+                svg {
+                    transform: rotate(180deg);
+                }
+            }
+
+            .icon-after {
+                justify-content: flex-end;
+            }
+
+            .icon-before, .icon-after {
+                display: flex;
+                width: 100px;
+                height: 20px;
+
+                &:hover {
+                    cursor: pointer;
+                    opacity: 0.7;
+                }
+            }
+
+            .post-container {
+                height: 100%;
+                justify-content: center;
+                max-width: 60vw;
+
+                .img-post-block {
+                    height: 100%;
+                    width: 50% !important;
+                }
+
+                .post-container-info {
+                    width: 50% !important;
+                }
+            }
+        }
+    }
+}

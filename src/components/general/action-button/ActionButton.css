@@ -1,0 +1,15 @@
+.action-button-container {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    border-radius: 3px;
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    color: var(--white);
+
+    &:hover {
+        cursor: pointer;
+        background-color: transparent;
+        color: var(--blue);
+    }
+}

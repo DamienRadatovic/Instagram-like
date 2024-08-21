@@ -1,0 +1,97 @@
+.open-modal-profile {
+    left: 0;
+    visibility: visible;
+}
+
+.close-modal-profile {
+    left: 100%;
+    visibility: hidden;
+}
+
+.modal-profile-container {
+    position: fixed;
+    top: 110px;
+    display: flex;
+    width: 100dvw;
+    padding-left: 3.68055555%; /* 1334/1440 */
+    padding-right: 3.68055555%;
+    padding-bottom: 20px;
+    z-index: 10;
+    background-color: var(--white);
+    height: calc(100vh - 110px);
+    transition: all 0.3s ease-out;
+
+    .profile-left {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        box-sizing: border-box;
+        width: 21.28935532%; /* 284/1334 */
+        padding-right: 6.59670164%; /* 88/1334 */
+        padding-left: 0.89955022%; /* 12/1334 */
+    }
+
+    .profile-right {
+        display: flex;
+        width: 78.71064467%; /* 1050/1334 */
+        height: 100%;
+
+        .profile-posts {
+            display: flex;
+            flex-wrap: wrap;
+            width: 88.37429111%; /* 935/1058 */
+            height: 100%;
+            overflow: auto;
+            overflow-x: hidden;
+
+            .post-img-container {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding: 10px;
+                height: fit-content;
+                box-sizing: border-box;
+                aspect-ratio: 1 / 1;
+
+                img {
+                    border-radius: 3px;
+                    width: 100%;
+                    object-fit: cover;
+                    aspect-ratio: 1 / 1;
+                }
+            }
+        }
+
+        .select-grid-type {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            width: 11.62570888%; /* 123/1058 */
+            padding-top: 130px;
+            gap: 25px;
+
+            .select {
+                opacity: 1;
+            }
+
+            .unselect {
+                opacity: 0.2;
+            }
+
+            .select-type {
+                width: 15px;
+
+                &:hover {
+                    cursor: pointer;
+                    opacity: 0.7;
+                }
+
+                svg {
+                    width: 100%;
+                }
+            }
+
+
+        }
+    }
+}

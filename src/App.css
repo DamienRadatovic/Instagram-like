@@ -1,0 +1,8 @@
+#root {
+    display: flex;
+    justify-content: center;
+    width: 100dvw;
+    max-width: 100dvw;
+    overflow-x: hidden;
+    min-height: 100dvh;
+}

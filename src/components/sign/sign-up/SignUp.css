@@ -1,0 +1,17 @@
+.register-form {
+    .email {
+        margin-top: 2.616vh;
+    }
+
+    .password-verification {
+        justify-content: space-between;
+        margin-bottom: 3.634vh;
+    }
+
+    .error-password {
+        text-align: left;
+        width: 100%;
+        color: var(--red);
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,105 @@
+.post-item-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+    .img-post-item {
+        border-radius: 3px;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.7;
+        }
+    }
+
+    .footer-post-item {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        padding: 10px 0;
+
+        h4 {
+            font-size: 0.75rem;
+            color: var(--black);
+            width: 99%;
+            font-weight: 600;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        h5 {
+            font-size: 0.625rem;
+            color: var(--grey);
+            font-weight: 400;
+        }
+
+        .left {
+            display: flex;
+            align-items: center;
+            width: 50%;
+            gap: 10px;
+
+            .story-item-container {
+                min-width: 38px;
+                width: 38px;
+                height: 38px;
+                min-height: 38px;
+
+                img {
+                    transform: translate(-50%, -50%) scale(0.6);
+                }
+            }
+
+            .left-info {
+                display: flex;
+                flex-direction: column;
+                width: calc(100% - calc(63px*0.6));
+
+                &:hover {
+                    cursor: pointer;
+                    opacity: 0.7;
+                }
+            }
+        }
+
+        .rigth {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 50%;
+            gap: 10px;
+
+            h4 {
+                text-align: right;
+            }
+
+            .post-icon {
+                display: flex;
+                gap: 10px;
+                padding-bottom: 5px;
+
+                .icon {
+                    width: 15px;
+                    height: 15px;
+
+                    &:hover {
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+
+                    svg[values='select'] {
+                        path {
+                            fill: var(--red);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

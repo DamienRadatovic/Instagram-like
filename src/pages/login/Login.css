@@ -1,0 +1,496 @@
+@media (max-width: 480px) {
+    .login-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        min-height: 100vh;
+        height: auto;
+        padding: 10px 15%;
+        box-sizing: border-box;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        img {
+            position: absolute;
+            border-radius: 15px;
+
+            &:nth-child(1) {
+                top: 13.265vh;
+                left: -3.75vw;
+                width: 20.917vw;
+                height: 20.917vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(2) {
+                top: -7.986vh;
+                left: 16.583vw;
+                width: 20.333vw;
+                height: 20.333vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(3) {
+                top: -0.838vh;
+                left: -9.583vw;
+                width: 20.333vw;
+                height: 20.333vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(4) {
+                top: 82.853vh;
+                left: -11.417vw;
+                width: 18.167vw;
+                height: 18.167vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(5) {
+                top: 14.778vh;
+                right: -7.833vw;
+                width: 18vw;
+                height: 18vw;
+                transform: rotate(45deg);
+            }
+
+            &:nth-child(6) {
+                top: -6.222vh;
+                right: -13.833vw;
+                width: 23.333vw;
+                height: 23.333vw;
+                transform: rotate(45deg);
+            }
+
+            &:nth-child(7) {
+                top: 4.778vh;
+                right: 5.167vw;
+                width: 18vw;
+                height: 18vw;
+                transform: rotate(45deg);
+            }
+
+            &:nth-child(8) {
+                top: 73.778vh;
+                right: -5.833vw;
+                width: 17.5vw;
+                height: 17.5vw;
+                transform: rotate(45deg);
+            }
+        }
+
+        .login-top {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 80%;
+            box-sizing: border-box;
+
+            .svg-instagram {
+                width: 60px;
+                height: 60px;
+
+                svg {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .login-title {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                align-items: center;
+                width: 100%;
+                margin: 40px 0;
+                box-sizing: border-box;
+
+                h2 {
+                    font-size: 2rem;
+                    color: var(--black);
+                    font-weight: 500;
+                    text-align: center;
+                }
+
+                h4 {
+                    font-size: 1rem;
+                    color: var(--grey);
+                    font-weight: 500;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .login-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100dvw;
+        height: 100%;
+
+        img {
+            position: absolute;
+            border-radius: 15px;
+
+            &:nth-child(1) {
+                top: 25.265vh;
+                left: 7.25vw;
+                width: 20.917vw;
+                height: 20.917vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(2) {
+                top: -7.986vh;
+                left: 16.583vw;
+                width: 20.333vw;
+                height: 20.333vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(3) {
+                top: 1.162vh;
+                left: -9.583vw;
+                width: 20.333vw;
+                height: 20.333vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(4) {
+                top: 52.853vh;
+                left: -3.417vw;
+                width: 18.167vw;
+                height: 18.167vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(5) {
+                top: 23.778vh;
+                right: 2.167vw;
+                width: 18vw;
+                height: 18vw;
+                transform: rotate(45deg);
+            }
+
+            &:nth-child(6) {
+                top: -6.222vh;
+                right: -13.833vw;
+                width: 23.333vw;
+                height: 23.333vw;
+                transform: rotate(45deg);
+            }
+
+            &:nth-child(7) {
+                top: 3.778vh;
+                right: 17.167vw;
+                width: 18vw;
+                height: 18vw;
+                transform: rotate(45deg);
+            }
+
+            &:nth-child(8) {
+                top: 53.778vh;
+                right: -2.833vw;
+                width: 17.5vw;
+                height: 17.5vw;
+                transform: rotate(45deg);
+            }
+        }
+
+        .login-top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 30vw;
+            height: 88.573dvh;
+            padding-top: 8.721dvh;
+            box-sizing: border-box;
+
+            .svg-instagram {
+                width: 60px;
+                height: 60px;
+
+                svg {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .login-title {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                align-items: center;
+                width: 100%;
+                margin: 40px 0;
+
+                h2 {
+                    font-size: 2.375rem;
+                    color: var(--black);
+                    font-weight: 500;
+                    text-align: center;
+                }
+
+                h4 {
+                    font-size: 1.25rem;
+                    color: var(--grey);
+                    font-weight: 500;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .login-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100dvw;
+        height: 100%;
+
+        img {
+            position: absolute;
+            border-radius: 15px;
+
+            &:nth-child(1) {
+                top: 25.265vh;
+                left: 7.25vw;
+                width: 20.917vw;
+                height: 20.917vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(2) {
+                top: -7.986vh;
+                left: 16.583vw;
+                width: 20.333vw;
+                height: 20.333vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(3) {
+                top: 1.162vh;
+                left: -9.583vw;
+                width: 20.333vw;
+                height: 20.333vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(4) {
+                top: 52.853vh;
+                left: -3.417vw;
+                width: 18.167vw;
+                height: 18.167vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(5) {
+                top: 23.778vh;
+                right: 2.167vw;
+                width: 18vw;
+                height: 18vw;
+                transform: rotate(45deg);
+            }
+
+            &:nth-child(6) {
+                top: -6.222vh;
+                right: -13.833vw;
+                width: 23.333vw;
+                height: 23.333vw;
+                transform: rotate(45deg);
+            }
+
+            &:nth-child(7) {
+                top: 3.778vh;
+                right: 17.167vw;
+                width: 18vw;
+                height: 18vw;
+                transform: rotate(45deg);
+            }
+
+            &:nth-child(8) {
+                top: 53.778vh;
+                right: -2.833vw;
+                width: 17.5vw;
+                height: 17.5vw;
+                transform: rotate(45deg);
+            }
+        }
+
+        .login-top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 30vw;
+            height: 88.573dvh;
+            padding-top: 8.721dvh;
+            box-sizing: border-box;
+
+            .svg-instagram {
+                width: 60px;
+                height: 60px;
+
+                svg {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .login-title {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                align-items: center;
+                width: 100%;
+                margin: 40px 0;
+
+                h2 {
+                    font-size: 2.375rem;
+                    color: var(--black);
+                    font-weight: 500;
+                    text-align: center;
+                }
+
+                h4 {
+                    font-size: 1.25rem;
+                    color: var(--grey);
+                    font-weight: 500;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1199px) {
+    .login-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100dvw;
+        height: 100dvh;
+
+        img {
+            position: absolute;
+            border-radius: 15px;
+
+            &:nth-child(1) {
+                top: 25.265vh;
+                left: 7.25vw;
+                width: 17.917vw;
+                height: 17.917vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(2) {
+                top: -7.986vh;
+                left: 16.583vw;
+                width: 15.333vw;
+                height: 15.333vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(3) {
+                top: 1.162vh;
+                left: -9.583vw;
+                width: 17.333vw;
+                height: 17.333vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(4) {
+                top: 52.853vh;
+                left: -3.417vw;
+                width: 8.167vw;
+                height: 8.167vw;
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(5) {
+                top: 29.185vh;
+                right: 11.833vw;
+                width: 14vw;
+                height: 14vw;
+                transform: rotate(45deg);
+            }
+
+            &:nth-child(6) {
+                top: -13.504vh;
+                right: -6.083vw;
+                width: 23.333vw;
+                height: 23.333vw;
+                transform: rotate(45deg);
+            }
+
+            &:nth-child(7) {
+                top: 12.778vh;
+                right: 23.167vw;
+                width: 8vw;
+                height: 8vw;
+                transform: rotate(45deg);
+            }
+
+            &:nth-child(8) {
+                top: 39.204vh;
+                right: -10.583vw;
+                width: 17.5vw;
+                height: 17.5vw;
+                transform: rotate(45deg);
+            }
+        }
+
+        .login-top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 23.333vw;
+            height: 88.573dvh;
+            padding-top: 8.721dvh;
+            box-sizing: border-box;
+
+            .svg-instagram {
+                width: 60px;
+                height: 60px;
+
+                svg {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .login-title {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                align-items: center;
+                width: 100%;
+                margin: 40px 0;
+
+                h2 {
+                    font-size: 2rem;
+                    color: var(--black);
+                    font-weight: 500;
+                }
+
+                h4 {
+                    font-size: 1rem;
+                    color: var(--grey);
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
